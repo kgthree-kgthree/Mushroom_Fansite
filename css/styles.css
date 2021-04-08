@@ -1,0 +1,76 @@
+/*********************************TAG SELECTORS********************************/
+h1 {
+  color: #864000;
+
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  background-color: #eeb76b;
+}
+
+img:hover {
+  background-color: gold;
+
+}
+
+/*********************************CLASS SELECTORS******************************/
+.circular {
+  border-radius: 100%;
+}
+
+.container {
+  position: relative;
+  height: 300px;
+  width: 300px;
+  background-color: grey;
+}
+
+.garlic {
+  background-color: red;
+}
+
+.mushroom {
+  background-color: green;
+}
+
+.red {
+  background-color: red;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  right: 0;
+
+
+}
+
+.blue {
+  background-color: blue;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  left: 100px;
+  top: 0;
+
+}
+
+.yellow {
+  background-color: yellow;
+  height: 100px;
+  width: 100px;
+  position: fixed;
+  left: 0;
+  top:0;
+
+
+}
+/********************************ID SELECTORS**********************************/
+#big {
+  font-size: 1000px;
+}
+#heading {
+  color: blue;
+}
